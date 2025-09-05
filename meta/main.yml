@@ -1,6 +1,6 @@
 galaxy_info:
   author: Jin, SungEun
-  description: Restore use-vhost-role.yml
+  description: Restore DemoWeb.yml
   company: Soldesk (optional)
 
   # If the issue tracker for your role is not on github, uncomment the
