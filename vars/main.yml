@@ -1,2 +1,18 @@
 ---
 # vars file for roles/rollback-svc
+# ---
+# - name: Restore test.yml
+#   hosts: all
+#   roles:
+#     - rollback-svc
+#   vars:
+#     fw_svc:
+#       - http
+#       - https
+#     svcs:
+#       - httpd
+#       - firewalld
+#     files:
+#       - /var/www/html/index.html
+#     pkgs:
+#       - httpd
